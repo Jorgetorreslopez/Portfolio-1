@@ -1,9 +1,10 @@
 import React from "react";
-import styles from "./HomePage.module.css";
+import styles from './Welcome.module.css'
 
-const HomePage = () => {
+const Welcome = () => {
+   // console.log(styles)
   return (
-    <div className={styles.container}>
+    <div className={styles.buttonContainer}>
       <div className={styles.welcomeText}>
         HEY, ARE YOU TRAVELING TOO?
         <br />
@@ -23,4 +24,4 @@ const HomePage = () => {
   );
 };
 
-export default HomePage;
+export default Welcome;

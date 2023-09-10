@@ -16,7 +16,7 @@
   }
 }
 
-body {
+.body-container {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
@@ -24,4 +24,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+.default-background {
+  background-color: black; 
+  color: white; 
 }
