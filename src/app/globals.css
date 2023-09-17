@@ -2,26 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  background-image: url('https://i.imgur.com/c0vrj13.gif'); 
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-
-.body-container {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
-
-.default-background {
-  background-color: black; 
-  color: white; 
-}

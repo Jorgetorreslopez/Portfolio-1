@@ -1,24 +1,36 @@
-import React from "react";
-import styles from './Welcome.module.css'
+import React, { useRef } from "react";
+import gsap from "gsap";
+import styles from "./Welcome.module.css";
+import { useRouter } from "next/router";
 
 const Welcome = () => {
-   // console.log(styles)
+  const router = useRouter();
+  const handleJoinJourneyClick = () => {
+    router.push("/MainPage/MainPage");
+  };
+
   return (
-    <div className={styles.buttonContainer}>
+    <div className={styles.welcomeContainer}>
       <div className={styles.welcomeText}>
         HEY, ARE YOU TRAVELING TOO?
         <br />
-        <button className={styles.btn} type="button">
-          <strong className={styles.strong}>Join the Journey</strong>
-          <div id={styles.containerStars}>
-            <div id="stars"></div>
-          </div>
+        <div id="button-container">
+          <button
+            className={styles.btn}
+            type="button"
+            onClick={handleJoinJourneyClick}
+          >
+            <strong className={styles.strong}>Join the Journey</strong>
+            <div id={styles.containerStars}>
+              <div id="stars"></div>
+            </div>
 
-          <div id="glow">
-            <div className={styles.circle}></div>
-            <div className={styles.circle}></div>
-          </div>
-        </button>
+            <div id="glow">
+              <div className={styles.circle}></div>
+              <div className={styles.circle}></div>
+            </div>
+          </button>
+        </div>
       </div>
     </div>
   );

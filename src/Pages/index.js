@@ -1,9 +1,13 @@
-import React from 'react';
-import HomePage from './HomePage/HomePage'; 
-import '../app/globals.css';
+import "../app/globals.css";
+import HomePage from "../Pages/HomePage/HomePage";
 
-const IndexPage = () => {
-  return <HomePage />;
-};
+export default function App() {
+  return (
+    <main className='App'>
+      <HomePage />
+    </main>
+  );
+}
 
-export default IndexPage;
+
+//client side rendering for cross page animations

@@ -1,0 +1,30 @@
+.mainPage {
+    background-image: url('https://i.imgur.com/lcas7Aa.gif'); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .enter {
+    opacity: 0; /* Start with a hidden state */
+    transform: scale(0.5); /* Start small */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .enter.active {
+    opacity: 1; /* Gradually become visible */
+    transform: scale(1); /* Grow to full size */
+  }
+  
+  /* CSS for Exit Animation */
+  .exit {
+    opacity: 1; /* Start visible */
+    transform: scale(1); /* Start at full size */
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .exit.active {
+    opacity: 0; /* Gradually disappear */
+    transform: scale(0.5); /* Shrink */
+  }
