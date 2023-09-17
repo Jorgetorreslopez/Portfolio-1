@@ -8,10 +8,10 @@ export default function Header() {
           <Link href="/AboutMe/AboutMe">About</Link>
         </div>
         <div className="hover:underline">
-          <Link href="#projects">Projects</Link>
+          <Link href="/Projects/Projects">Projects</Link>
         </div>
         <div className="hover:underline">
-          <Link href="#contacts">Contact</Link>
+          <Link href="/Contacts/Contacts">Contact</Link>
         </div>
       </nav>
       <div className="text-center mt-4">

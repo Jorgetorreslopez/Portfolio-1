@@ -22,7 +22,7 @@ export default function AboutMe() {
               <img
                 src="https://i.imgur.com/wxHuHwN.jpg"
                 alt="Your Name"
-                className="w-full rounded-lg shadow-lg"
+                className="w-3/4 rounded-lg shadow-lg"
               />
             </div>
           </div>
