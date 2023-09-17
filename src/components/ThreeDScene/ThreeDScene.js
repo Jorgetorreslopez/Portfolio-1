@@ -25,8 +25,9 @@ function ThreeDScene() {
       <OrbitControls camera={cameraRef.current} enableZoom={false} />
 
       <group ref={groupRef}>
-        <Box args={[1, 1, 1]} position={[0, 0, 0]} />
-        <Html position={[0, 0, 0]}>
+      <Box args={[1, 1, 1]} position={[0, 0, 0]} rotation={[Math.PI / 4, 0, Math.PI / 4]}/>
+
+        <Html position={[-0.53, 0.3, 0]}>
           <div className={styles.welcomeContainer}>
             <div className={styles.welcomeText}>
               HEY, ARE YOU TRAVELING TOO?

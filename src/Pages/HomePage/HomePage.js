@@ -27,7 +27,6 @@ export default function HomePage() {
   return (
     <div className={styles.page}>
       <ThreeDScene />
-      <Welcome />
     </div>
   );
 };
