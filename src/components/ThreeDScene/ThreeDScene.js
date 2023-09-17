@@ -17,7 +17,7 @@ function ThreeDScene() {
 
   const router = useRouter();
   const handleJoinJourneyClick = () => {
-    router.push("/MainPage/MainPage");
+    router.push("/AboutMe/AboutMe");
   };
 
   return (
