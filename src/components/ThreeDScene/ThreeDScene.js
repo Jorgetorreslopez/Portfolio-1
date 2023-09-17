@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { useRouter } from "next/router";
+import { Link } from "react-router-dom";
 import { Canvas, useFrame } from "@react-three/fiber";
 import {
   OrbitControls,

@@ -1,4 +1,3 @@
-import "../app/globals.css";
 import HomePage from "../Pages/HomePage/HomePage";
 
 export default function App() {

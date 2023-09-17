@@ -10,3 +10,25 @@
   background-attachment: fixed;
   background-size: cover;
 }
+
+.page-enter {
+  transform: scale(1.2); /* Initial state: zoomed in */
+  opacity: 0; /* Initial state: hidden */
+}
+
+.page-enter-active {
+  transform: scale(1); /* Final state: normal size */
+  opacity: 1; /* Final state: visible */
+  transition: transform 500ms, opacity 500ms;
+}
+
+.page-exit {
+  transform: scale(1); /* Initial state: normal size */
+  opacity: 1; /* Initial state: visible */
+}
+
+.page-exit-active {
+  transform: scale(0.8); /* Final state: zoomed out */
+  opacity: 0; /* Final state: hidden */
+  transition: transform 500ms, opacity 500ms;
+}
