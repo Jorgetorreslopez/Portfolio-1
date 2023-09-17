@@ -1,6 +1,6 @@
 import HomePage from "../Pages/HomePage/HomePage";
 
-export default function App() {
+export default function Index() {
   return (
     <main className='App'>
       <HomePage />
@@ -8,5 +8,3 @@ export default function App() {
   );
 }
 
-
-//client side rendering for cross page animations

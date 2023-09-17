@@ -7,8 +7,6 @@ export default function MainPage() {
     <div className={styles.mainPage}>
       <div>
         <Header />
-        <h1>Main Page</h1>
-        {/* Add content for your main page */}
       </div>
     </div>
   );

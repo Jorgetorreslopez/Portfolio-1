@@ -5,7 +5,7 @@ export default function Header() {
     <header className="bg-space-theme text-white p-4">
       <nav className="flex justify-center space-x-4">
         <div className="hover:underline">
-          <Link href="#AboutMe">About</Link>
+          <Link href="/AboutMe/AboutMe">About</Link>
         </div>
         <div className="hover:underline">
           <Link href="#projects">Projects</Link>
@@ -15,8 +15,8 @@ export default function Header() {
         </div>
       </nav>
       <div className="text-center mt-4">
-        <h1 className="text-4xl font-semibold">Your Name</h1>
-        <p className="text-lg">Front-end Developer</p>
+        <h1 className="text-4xl font-semibold">Jorge Eduardo Torres Lopez</h1>
+        <p className="text-lg">Full-Stack Engineer/ Web Developer/ User Experience Designer</p>
       </div>
     </header>
   );
