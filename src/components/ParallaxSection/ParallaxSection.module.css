@@ -1,0 +1,21 @@
+.parallaxSection {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
+  }
+  
+  .parallaxLayer1 {
+    background-image: url('/path/to/layer1-image.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: translate(-50%, -50%) scale(1.2);
+    /* Add more styles as needed */
+  }
+  
+  .parallaxLayer2 {
+    background-image: url('/path/to/layer2-image.jpg');
+    background-size: cover;
+    background-position: center;
+    transform: translate(-50%, -50%) scale(1.4);
+    /* Add more styles as needed */
+  }

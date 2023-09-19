@@ -29,6 +29,7 @@ function ThreeDScene() {
       <Box args={[1, 1, 1]} position={[0, 0, 0]} rotation={[Math.PI / 4, 0, Math.PI / 4]}/>
 
         <Html position={[-0.53, 0.3, 0]}>
+        <h1 className="bg-space-theme text-black text-center text-lg">Use Your Mouse to Move The Cube</h1>
           <div className={styles.welcomeContainer}>
             <div className={styles.welcomeText}>
               HEY, ARE YOU TRAVELING TOO?

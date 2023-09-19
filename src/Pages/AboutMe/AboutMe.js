@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./AboutMe.module.css";
 import Header from "@/components/Header/Header";
+import ParallaxSection from "@/components/ParallaxSection/ParallaxSection";
 
 export default function AboutMe() {
   return (
@@ -17,6 +18,7 @@ export default function AboutMe() {
               <p className="text-lg">
                 "You Decide Your Destiny. Your Habits Decide If You Get There Or Not"
               </p>
+              <ParallaxSection />
             </div>
             <div className="md:w-1/2 mt-8 md:mt-0">
               <img
