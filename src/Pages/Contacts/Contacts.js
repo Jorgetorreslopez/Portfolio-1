@@ -18,7 +18,7 @@ const Contacts = () => {
             <p className="mb-2">Email: jorgetorreslopezdev@gmail.com</p>
             <p className="mb-2">Phone: (770) 639-5225</p>
             <p className="mb-2">LinkedIn: <a href="https://www.linkedin.com/in/jorgeeduardotorreslopez/" className="text-blue-400 hover:underline">LinkedIn Profile</a></p>
-            <p className="mb-2">GitHub: <a href="https://github.com/Jorgetorreslopez/IKEAPROJECTSEI" className="text-blue-400 hover:underline">GitHub Profile</a></p>
+            <p className="mb-2">GitHub: <a href="https://github.com/Jorgetorreslopez" className="text-blue-400 hover:underline">GitHub Profile</a></p>
           </div>
           <div>
             <h2 className="text-2xl font-semibold mb-4">Contact Form</h2>
